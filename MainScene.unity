@@ -1,0 +1,18 @@
+// Eine einfache Unity-Szene für die Augmented Reality Bauplanung
+
+using UnityEngine;
+
+public class MainScene : MonoBehaviour
+{
+    void Start()
+    {
+        // Initialisierungscode für AR
+        InitializeAR();
+    }
+
+    void InitializeAR()
+    {
+        // Logik zur Initialisierung der Augmented Reality-Funktionalitäten
+        Debug.Log("AR wird initialisiert...");
+    }
+}
