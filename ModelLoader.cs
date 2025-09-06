@@ -6,9 +6,9 @@ public class ModelLoader : MonoBehaviour
 {
     public GameObject modelPrefab;
 
-    public void LoadModel(Vector3 position)
+    public void LoadModel(Vector3 position, Quaternion rotation = default)
     {
-        Instantiate(modelPrefab, position, Quaternion.identity);
+        Instantiate(modelPrefab, position, rotation);
         Debug.Log("Modell geladen.");
     }
 }
