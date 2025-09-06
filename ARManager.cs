@@ -28,6 +28,6 @@ public class ARManager : MonoBehaviour
     {
         arSession.enabled = true;
         arMeshManager.enabled = true; // Enable the ARMeshManager as well
-        Debug.Log("Augmented Reality gestartet.");
+        Debug.Log("Augmented Reality features have been started.");
     }
 }
