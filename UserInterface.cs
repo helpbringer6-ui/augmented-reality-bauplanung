@@ -1,4 +1,4 @@
-// Benutzeroberfläche für Augmented Reality Bauplanung
+// User interface for Augmented Reality construction planning
 
 using UnityEngine;
 
@@ -6,7 +6,7 @@ public class UserInterface : MonoBehaviour
 {
     public void ShowPlanningOptions()
     {
-        // Logik zur Darstellung der Planungsoptionen
-        Debug.Log("Planungsoptionen angezeigt.");
+        // Logic for displaying planning options
+        Debug.Log("Planning options displayed.");
     }
 }
