@@ -12,6 +12,16 @@ public class ARManager : MonoBehaviour
     {
         arSession = GetComponent<ARSession>();
         arMeshManager = GetComponent<ARMeshManager>();
+
+        if (arSession == null)
+        {
+            Debug.LogError("ARSession component is missing from this GameObject.");
+        }
+
+        if (arMeshManager == null)
+        {
+            Debug.LogError("ARMeshManager component is missing from this GameObject.");
+        }
     }
 
     public void StartAR()
