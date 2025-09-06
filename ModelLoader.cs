@@ -8,6 +8,11 @@ public class ModelLoader : MonoBehaviour
 
     public void LoadModel(Vector3 position, Quaternion rotation = default)
     {
+        if (modelPrefab == null)
+        {
+            Debug.LogError("Model prefab ist nicht zugewiesen!");
+            return;
+        }
         Instantiate(modelPrefab, position, rotation);
         Debug.Log("Modell geladen.");
     }
