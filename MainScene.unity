@@ -13,6 +13,6 @@ public class MainScene : MonoBehaviour
     void InitializeAR()
     {
         // Logik zur Initialisierung der Augmented Reality-Funktionalitäten
-        Debug.Log("AR wird initialisiert...");
+        Debug.Log("Augmented Reality wird jetzt initialisiert...");
     }
 }
