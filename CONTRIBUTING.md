@@ -5,7 +5,7 @@ Vielen Dank, dass Sie zur Augmented Reality Bauplanung beitragen möchten! Hier 
 ## Wie man beiträgt
 1. **Fork das Repository**: Erstellen Sie eine Kopie des Repositories auf Ihrem eigenen GitHub-Account.
 2. **Erstellen Sie einen neuen Branch**: Arbeiten Sie in einem neuen Branch, um Ihre Änderungen zu isolieren.
-3. **Machen Sie Ihre Änderungen**: Nachfolgend finden Sie eine Beschreibung der Regeln, die Sie beim Code beachten sollten.
+3. **Machen Sie Ihre Änderungen**: Bleiben Sie bei der Beschreibung der Regeln, die Sie beim Code beachten sollten.
 4. **Testen Sie Ihre Änderungen**: Stellen Sie sicher, dass alle neuen Funktionen gut funktionieren und bestehende Funktionen nicht gebrochen werden.
 5. **Erstellen Sie einen Pull Request**: Teilen Sie uns mit, was Sie geändert haben und warum.
 
